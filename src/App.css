@@ -1,0 +1,97 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body{
+  font-family: sans-serif;
+  background-image: url(bg.jpeg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+
+}
+.App{
+  width: 50%;
+  height: 50vh;
+  margin:12% auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 26px;
+  background-image: url(weather.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: aliceblue;
+}
+
+.c-name{
+  width: 50%;
+  height: 34px;
+  color: #000;
+  outline: none;
+  border: 1px solid #8f8e8e;
+  border-radius: 12px;
+  margin-right: 8px;
+  background-color: #e1deded6;
+  font-size: 16px;
+  /* padding: 10px; */
+}
+.btn{
+  width: 100px;
+  height: 36px;
+  border: 1px solid #8f8e8e;
+  border-radius: 6px;
+  color: #000;
+  font-size: 16px;
+  background-color: #a7eeee;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #a6fa5c;
+}
+.data h1{
+  color: #b4edab;
+  font-size: 2.7rem;
+  padding-bottom: 20px;
+}
+.data h3{
+  color: #d4fcce;
+  font-size: 1.3rem
+}
